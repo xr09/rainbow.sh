@@ -4,12 +4,6 @@ rainbow.sh
 Simple colors for your scripts
 
 
-## How does it look?
-
-![Light palette](light.png)
-
-
-
 ##Usage
 
 Just import rainbow.sh and start using the available functions in your scripts.
@@ -33,6 +27,10 @@ echo "$vargreen ..Crickets are noisy.. $varred"
 echo "$varblue ..Frogs jump.. $varyellow"
 echo "$varpurple ..Dogs run.. $varcyan"
 ~~~~
+
+## How does it look?
+
+![Light palette](light.png)
 
 ## Tips
 
