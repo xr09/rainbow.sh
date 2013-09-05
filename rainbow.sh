@@ -45,3 +45,4 @@ function echocyan()
 {
   echo $(__colortext "$1" "36")
 }
+
