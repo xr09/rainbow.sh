@@ -30,7 +30,14 @@ echo "$varpurple ..Dogs run.. $varcyan"
 
 ## How does it look?
 
+
+### Light palette (default)
+
 ![Light palette](light.png)
+
+### Dark palette (see tip below)
+
+![Dark palette](dark.png)
 
 ## Tips
 
@@ -38,8 +45,3 @@ echo "$varpurple ..Dogs run.. $varcyan"
 
 
 * If you wish a darker color palette just redefine `__RAINBOWPALETTE` to `0` like this: `__RAINBOWPALETTE="0"`
-
-The dark palette looks like this:
-
-![Dark palette](dark.png)
-
