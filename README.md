@@ -41,7 +41,7 @@ echo "$varpurple ..Dogs run.. $varcyan"
 
 ## Tips
 
-* Don't forget to quote parameteres, `echogreen one big apple tree` will only output "one", you should use `echogreen "one big apple tree"` to get the full output.
+* Don't forget to quote parameteres, `echogreen one big apple tree` will only output `one`, you should use `echogreen "one big apple tree"` to get the full output.
 
 
 * If you wish a darker color palette just redefine `__RAINBOWPALETTE` to `0` like this: `__RAINBOWPALETTE="0"`
