@@ -3,7 +3,10 @@
 #  https://github.com/xr09/rainbow.sh
 #  Bash helper functions to put colors on your scripts
 #
-
+#  Usage example:
+#  vargreen=$(echogreen "Grass is green")
+#  echo "Coming next: $vargreen"
+#
 
 __RAINBOWPALETTE="1"
 
