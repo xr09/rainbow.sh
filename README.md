@@ -10,7 +10,7 @@ Just import rainbow.sh and start using the available functions in your scripts.
 
 Remember you need to save the output of the desired color function to a variable and print that later, or if you wish to print the whole text in one color just use `echogreen "my green text"`.
 
-~~~~
+~~~~bash
 source rainbow.sh 
 
 vargreen=$(echogreen "Grass is green")
