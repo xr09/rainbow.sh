@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Rainbow.sh by xr09</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Rainbow.sh</h1>
+        <p>Simple colors for your bash scripts</p>
+        <p class="view"><a href="https://github.com/xr09/rainbow.sh">View the Project on GitHub <small>xr09/rainbow.sh</small></a></p>
+        <ul>
+          <li><a href="https://github.com/xr09/rainbow.sh/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/xr09/rainbow.sh/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/xr09/rainbow.sh">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="rainbowsh" class="anchor" href="#rainbowsh"><span class="octicon octicon-link"></span></a>rainbow.sh</h1>
+
+<p>Simple colors for your scripts</p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Just import rainbow.sh and start using the available functions in your scripts.</p>
+
+<p>Remember you need to save the output of the desired color function to a variable and print that later, or if you wish to print the whole text in one color just use <code>echogreen "my green text"</code>.</p>
+
+<div class="highlight highlight-bash"><pre><span class="nb">source </span>rainbow.sh 
+
+<span class="nv">vargreen</span><span class="o">=</span><span class="k">$(</span>echogreen <span class="s2">"Grass is green"</span><span class="k">)</span>
+<span class="nv">varred</span><span class="o">=</span><span class="k">$(</span>echored <span class="s2">"Roses are red"</span><span class="k">)</span>
+
+<span class="nv">varblue</span><span class="o">=</span><span class="k">$(</span>echoblue <span class="s2">"Violets are blue"</span><span class="k">)</span>
+<span class="nv">varyellow</span><span class="o">=</span><span class="k">$(</span>echoyellow <span class="s2">"Daisys are yellow"</span><span class="k">)</span>
+
+<span class="nv">varpurple</span><span class="o">=</span><span class="k">$(</span>echopurple <span class="s2">"Lavenders are purple"</span><span class="k">)</span>
+<span class="nv">varcyan</span><span class="o">=</span><span class="k">$(</span>echocyan <span class="s2">"The water is cyan"</span><span class="k">)</span>
+
+
+<span class="nb">echo</span> <span class="s2">"$vargreen ..Crickets are noisy.. $varred"</span>
+<span class="nb">echo</span> <span class="s2">"$varblue ..Frogs jump.. $varyellow"</span>
+<span class="nb">echo</span> <span class="s2">"$varpurple ..Dogs run.. $varcyan"</span>
+</pre></div>
+
+<h2>
+<a name="how-does-it-look" class="anchor" href="#how-does-it-look"><span class="octicon octicon-link"></span></a>How does it look?</h2>
+
+<h3>
+<a name="light-palette-default" class="anchor" href="#light-palette-default"><span class="octicon octicon-link"></span></a>Light palette (default)</h3>
+
+<p><img src="light.png" alt="Light palette"></p>
+
+<h3>
+<a name="dark-palette-see-tip-below" class="anchor" href="#dark-palette-see-tip-below"><span class="octicon octicon-link"></span></a>Dark palette (see tip below)</h3>
+
+<p><img src="dark.png" alt="Dark palette"></p>
+
+<h2>
+<a name="tips" class="anchor" href="#tips"><span class="octicon octicon-link"></span></a>Tips</h2>
+
+<ul>
+<li><p>Don't forget to quote parameteres, <code>echogreen one big apple tree</code> will only output <code>one</code>, you should use <code>echogreen "one big apple tree"</code> to get the full output.</p></li>
+<li><p>If you wish a darker color palette just redefine <code>__RAINBOWPALETTE</code> to <code>0</code> like this: <code>__RAINBOWPALETTE="0"</code></p></li>
+</ul>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/xr09">xr09</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
