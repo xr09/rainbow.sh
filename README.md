@@ -1,7 +1,7 @@
 rainbow.sh
 ==========
 
-Simple colors for your scripts
+Colors for your scripts, the easy way.
 
 
 ##Usage
