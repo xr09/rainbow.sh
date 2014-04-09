@@ -45,3 +45,7 @@ echo "$varpurple ..Dogs run.. $varcyan"
 
 
 * If you wish a darker color palette just redefine `__RAINBOWPALETTE` to `0` like this: `__RAINBOWPALETTE="0"`
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/xr09/rainbow.sh/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
