@@ -1,5 +1,4 @@
 
-#  Copyright 2013 Manuel Gutierrez <dhunterkde@gmail.com>
 #  https://github.com/xr09/rainbow.sh
 #  Bash helper functions to put colors on your scripts
 #
